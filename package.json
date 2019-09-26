@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test-api": "newman run test/api-esting.postman_collection.json"
+    "test-api": "newman run test/api-esting.postman_collection.json --reporters junit --reorters-junit-export outputfile.xml"
   },
   "author": "",
   "license": "ISC"
