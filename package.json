@@ -1,0 +1,11 @@
+{
+  "name": "api-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-api": "newman run test/api-esting.postman_collection.json"
+  },
+  "author": "",
+  "license": "ISC"
+}
